@@ -6,6 +6,20 @@ Unlike traditional black-box classifiers or RAG-based filters, MSR-V analyzes st
 
 ---
 
+## 🔗 MSR-V Engine Demo
+
+This benchmark evaluates the outputs of the MSR-V white-box reasoning engine.
+
+You can find the runnable demo implementation here:
+👉 [https://github.com/yourname/msrv-engine-demo](https://github.com/ChanKi-arch/msrv-public-demo)
+
+The demo repository contains:
+- The MSR-V reasoning core
+- The governance & fracture detection logic
+- Example LLM output auditing workflows
+
+---
+
 ## 📥 Download
 
 Download the full benchmark (ZIP):
