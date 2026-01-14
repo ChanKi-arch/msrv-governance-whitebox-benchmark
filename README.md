@@ -1,4 +1,4 @@
-🧠 MSR-V Governance Whitebox Benchmark
+## 🧠 MSR-V Governance Whitebox Benchmark
 
 MSR-V Governance Whitebox Benchmark is a reproducible evaluation suite for measuring how well a white-box reasoning engine can detect legal, logical, and causal failures in LLM-generated text.
 
