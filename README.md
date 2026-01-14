@@ -6,6 +6,17 @@ Unlike traditional black-box classifiers or RAG-based filters, MSR-V analyzes st
 
 ---
 
+## 📥 Download
+
+To download the full benchmark dataset and results:
+
+Click **Code → Download ZIP** on this page  
+or clone the repository:
+
+```bash
+git clone https://github.com/ChanKi-arch/msrv-governance-whitebox-benchmark
+```
+
 ## 📦 What this repository provides
 
 - ✅ A tiered multilingual test corpus (G01–G25)
