@@ -1,0 +1,157 @@
+{
+  "tier": 1,
+  "tier_name": "Normal Legal",
+  "count": 3,
+  "results": [
+    {
+      "id": "G01",
+      "tier": 1,
+      "tier_name": "Normal Legal",
+      "lang": "EN",
+      "text": "Both parties agree to the confidentiality terms as stated in Section 4.",
+      "result": {
+        "route": "STANDARD",
+        "state4": "Alignment",
+        "Zs": 0.6325,
+        "shape": "·",
+        "need": 0.368,
+        "theta": 0.1732
+      },
+      "detection_flags": {
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": false
+      },
+      "validation": {
+        "expected_fracture": false,
+        "actual_fracture": false,
+        "fracture_match": true,
+        "expected_premium": false,
+        "actual_premium": false,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.368,
+        "bypass_base": 0.25,
+        "zs_need": 0.368,
+        "shape_need": 0.15,
+        "state_need": 0.3,
+        "length_pressure": 0.0,
+        "word_len": 12,
+        "char_len": 71,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": false,
+        "lang": "EN",
+        "rule": "need=0.368<=lite;lang=EN"
+      }
+    },
+    {
+      "id": "G02",
+      "tier": 1,
+      "tier_name": "Normal Legal",
+      "lang": "EN",
+      "text": "The provider shall maintain a standard level of care during the service period.",
+      "result": {
+        "route": "STANDARD",
+        "state4": "Alignment",
+        "Zs": 0.6325,
+        "shape": "·",
+        "need": 0.368,
+        "theta": 0.1732
+      },
+      "detection_flags": {
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": false
+      },
+      "validation": {
+        "expected_fracture": false,
+        "actual_fracture": false,
+        "fracture_match": true,
+        "expected_premium": false,
+        "actual_premium": false,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.368,
+        "bypass_base": 0.25,
+        "zs_need": 0.368,
+        "shape_need": 0.15,
+        "state_need": 0.3,
+        "length_pressure": 0.0,
+        "word_len": 13,
+        "char_len": 79,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": false,
+        "lang": "EN",
+        "rule": "need=0.368<=lite;lang=EN"
+      }
+    },
+    {
+      "id": "G03",
+      "tier": 1,
+      "tier_name": "Normal Legal",
+      "lang": "EN",
+      "text": "Failure to pay within 30 days will result in a late fee of 5%.",
+      "result": {
+        "route": "STANDARD",
+        "state4": "Alignment",
+        "Zs": 0.6325,
+        "shape": "─",
+        "need": 0.368,
+        "theta": 0.4093
+      },
+      "detection_flags": {
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true
+      },
+      "validation": {
+        "expected_fracture": false,
+        "actual_fracture": false,
+        "fracture_match": true,
+        "expected_premium": false,
+        "actual_premium": false,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.368,
+        "bypass_base": 0.25,
+        "zs_need": 0.368,
+        "shape_need": 0.35,
+        "state_need": 0.3,
+        "length_pressure": 0.0,
+        "word_len": 14,
+        "char_len": 62,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true,
+        "lang": "EN",
+        "rule": "need=0.368<=lite;lang=EN"
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "tier": 4,
+  "tier_name": "Legal Impossibility",
+  "count": 2,
+  "results": [
+    {
+      "id": "G08",
+      "tier": 4,
+      "tier_name": "Legal Impossibility",
+      "lang": "EN",
+      "text": "The user hereby waives all rights to sue the company, including for intentional harm or criminal acts.",
+      "result": {
+        "route": "PREMIUM",
+        "state4": "Fracture",
+        "Zs": 0.6325,
+        "shape": "·",
+        "need": 0.65,
+        "theta": 0.1732
+      },
+      "detection_flags": {
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": false
+      },
+      "validation": {
+        "expected_fracture": true,
+        "actual_fracture": true,
+        "fracture_match": true,
+        "expected_premium": true,
+        "actual_premium": true,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.65,
+        "bypass_base": 0.25,
+        "zs_need": 0.368,
+        "shape_need": 0.15,
+        "state_need": 0.65,
+        "length_pressure": 0.0,
+        "word_len": 17,
+        "char_len": 102,
+        "short_sig": true,
+        "short_sig_cap_applied": false,
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": false,
+        "lang": "EN",
+        "rule": "need=0.650>lite;lang=EN"
+      }
+    },
+    {
+      "id": "G09",
+      "tier": 4,
+      "tier_name": "Legal Impossibility",
+      "lang": "EN",
+      "text": "This contract remains valid even if its entire content is found to be illegal by the court.",
+      "result": {
+        "route": "PREMIUM",
+        "state4": "Fracture",
+        "Zs": 0.6325,
+        "shape": "·",
+        "need": 0.65,
+        "theta": 0.1732
+      },
+      "detection_flags": {
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": true,
+        "has_risky_claim": false,
+        "high_stakes": true
+      },
+      "validation": {
+        "expected_fracture": true,
+        "actual_fracture": true,
+        "fracture_match": true,
+        "expected_premium": true,
+        "actual_premium": true,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.65,
+        "bypass_base": 0.25,
+        "zs_need": 0.368,
+        "shape_need": 0.15,
+        "state_need": 0.65,
+        "length_pressure": 0.0,
+        "word_len": 17,
+        "char_len": 91,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": true,
+        "has_risky_claim": false,
+        "high_stakes": true,
+        "lang": "EN",
+        "rule": "need=0.650>lite;lang=EN"
+      }
+    }
+  ]
+}

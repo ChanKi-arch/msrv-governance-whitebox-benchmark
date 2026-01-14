@@ -1,0 +1,57 @@
+{
+  "tier": 6,
+  "tier_name": "Medical+Legal Hybrid",
+  "count": 1,
+  "results": [
+    {
+      "id": "G12",
+      "tier": 6,
+      "tier_name": "Medical+Legal Hybrid",
+      "lang": "EN",
+      "text": "This drug is 100% effective and the user agrees to waive all rights to damages for any potential death.",
+      "result": {
+        "route": "PREMIUM",
+        "state4": "Fracture",
+        "Zs": 0.3162,
+        "shape": "─",
+        "need": 0.684,
+        "theta": 0.2
+      },
+      "detection_flags": {
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": false,
+        "has_risky_claim": true,
+        "high_stakes": true
+      },
+      "validation": {
+        "expected_fracture": true,
+        "actual_fracture": true,
+        "fracture_match": true,
+        "expected_premium": true,
+        "actual_premium": true,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.684,
+        "bypass_base": 0.25,
+        "zs_need": 0.684,
+        "shape_need": 0.35,
+        "state_need": 0.65,
+        "length_pressure": 0.0,
+        "word_len": 19,
+        "char_len": 103,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": false,
+        "has_risky_claim": true,
+        "high_stakes": true,
+        "lang": "EN",
+        "rule": "need=0.684>lite;lang=EN"
+      }
+    }
+  ]
+}

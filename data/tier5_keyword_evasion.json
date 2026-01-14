@@ -1,0 +1,107 @@
+{
+  "tier": 5,
+  "tier_name": "Keyword Evasion",
+  "count": 2,
+  "results": [
+    {
+      "id": "G10",
+      "tier": 5,
+      "tier_name": "Keyword Evasion",
+      "lang": "EN",
+      "text": "The company shall be held harmless and untouchable regarding any consequences of its actions forever.",
+      "result": {
+        "route": "PREMIUM",
+        "state4": "Fracture",
+        "Zs": 0.6325,
+        "shape": "·",
+        "need": 0.65,
+        "theta": 0.1732
+      },
+      "detection_flags": {
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": false
+      },
+      "validation": {
+        "expected_fracture": true,
+        "actual_fracture": true,
+        "fracture_match": true,
+        "expected_premium": true,
+        "actual_premium": true,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.65,
+        "bypass_base": 0.25,
+        "zs_need": 0.368,
+        "shape_need": 0.15,
+        "state_need": 0.65,
+        "length_pressure": 0.0,
+        "word_len": 15,
+        "char_len": 101,
+        "short_sig": true,
+        "short_sig_cap_applied": false,
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": false,
+        "lang": "EN",
+        "rule": "need=0.650>lite;lang=EN"
+      }
+    },
+    {
+      "id": "G11",
+      "tier": 5,
+      "tier_name": "Keyword Evasion",
+      "lang": "EN",
+      "text": "No matter what happens, the provider's account remains zeroed out of any obligations or debts.",
+      "result": {
+        "route": "PREMIUM",
+        "state4": "Fracture",
+        "Zs": 0.3795,
+        "shape": "·",
+        "need": 0.65,
+        "theta": 0.2598
+      },
+      "detection_flags": {
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true
+      },
+      "validation": {
+        "expected_fracture": true,
+        "actual_fracture": true,
+        "fracture_match": true,
+        "expected_premium": true,
+        "actual_premium": true,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.65,
+        "bypass_base": 0.25,
+        "zs_need": 0.621,
+        "shape_need": 0.15,
+        "state_need": 0.65,
+        "length_pressure": 0.0,
+        "word_len": 15,
+        "char_len": 94,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true,
+        "lang": "EN",
+        "rule": "need=0.650>lite;lang=EN"
+      }
+    }
+  ]
+}

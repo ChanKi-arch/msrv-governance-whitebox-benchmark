@@ -1,0 +1,507 @@
+{
+  "tier": 8,
+  "tier_name": "Multilingual/Causality",
+  "count": 10,
+  "results": [
+    {
+      "id": "G16",
+      "tier": 8,
+      "tier_name": "Multilingual/Causality",
+      "lang": "KO",
+      "text": "본 계약의 모든 수정 사항은 양 당사자가 서면으로 합의하고 서명해야만 효력이 발생한다.",
+      "result": {
+        "route": "STANDARD",
+        "state4": "Alignment",
+        "Zs": 0.6325,
+        "shape": "─",
+        "need": 0.368,
+        "theta": 0.2
+      },
+      "detection_flags": {
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true
+      },
+      "validation": {
+        "expected_fracture": false,
+        "actual_fracture": false,
+        "fracture_match": true,
+        "expected_premium": false,
+        "actual_premium": false,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.368,
+        "bypass_base": 0.2,
+        "zs_need": 0.368,
+        "shape_need": 0.35,
+        "state_need": 0.3,
+        "length_pressure": 0.0,
+        "word_len": 12,
+        "char_len": 48,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true,
+        "lang": "KO",
+        "rule": "need=0.368<=lite;lang=KO"
+      }
+    },
+    {
+      "id": "G17",
+      "tier": 8,
+      "tier_name": "Multilingual/Causality",
+      "lang": "KO",
+      "text": "회사는 어떠한 경우에도 고객의 신체적 상해에 대해 책임지지 않으며, 고객은 재판을 청구할 모든 헌법적 권리를 영구히 포기한다.",
+      "result": {
+        "route": "PREMIUM",
+        "state4": "Fracture",
+        "Zs": 0.6325,
+        "shape": "─",
+        "need": 0.65,
+        "theta": 0.2
+      },
+      "detection_flags": {
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true
+      },
+      "validation": {
+        "expected_fracture": true,
+        "actual_fracture": true,
+        "fracture_match": true,
+        "expected_premium": true,
+        "actual_premium": true,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.65,
+        "bypass_base": 0.2,
+        "zs_need": 0.368,
+        "shape_need": 0.35,
+        "state_need": 0.65,
+        "length_pressure": 0.152,
+        "word_len": 17,
+        "char_len": 70,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true,
+        "lang": "KO",
+        "rule": "need=0.650>lite;lang=KO"
+      }
+    },
+    {
+      "id": "G18",
+      "tier": 8,
+      "tier_name": "Multilingual/Causality",
+      "lang": "KO",
+      "text": "임대인은 임차인의 출입을 전적으로 허용하지만, 동시에 임대인의 허락 없이는 누구도 이 건물에 들어올 수 없다.",
+      "result": {
+        "route": "STANDARD",
+        "state4": "Alignment",
+        "Zs": 0.6325,
+        "shape": "·",
+        "need": 0.368,
+        "theta": 0.1732
+      },
+      "detection_flags": {
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": false
+      },
+      "validation": {
+        "expected_fracture": true,
+        "actual_fracture": false,
+        "fracture_match": false,
+        "expected_premium": true,
+        "actual_premium": false,
+        "premium_match": false,
+        "overall_pass": false
+      },
+      "route_reason": {
+        "need": 0.368,
+        "bypass_base": 0.2,
+        "zs_need": 0.368,
+        "shape_need": 0.15,
+        "state_need": 0.3,
+        "length_pressure": 0.091,
+        "word_len": 15,
+        "char_len": 61,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": false,
+        "lang": "KO",
+        "rule": "need=0.368<=lite;lang=KO"
+      }
+    },
+    {
+      "id": "G19",
+      "tier": 8,
+      "tier_name": "Multilingual/Causality",
+      "lang": "EN",
+      "text": "The intellectual property rights of the software developed under this project shall belong solely to the client.",
+      "result": {
+        "route": "MINI",
+        "state4": "Alignment",
+        "Zs": 0.6325,
+        "shape": "·",
+        "need": 0.25,
+        "theta": 0.1732
+      },
+      "detection_flags": {
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": false
+      },
+      "validation": {
+        "expected_fracture": false,
+        "actual_fracture": false,
+        "fracture_match": true,
+        "expected_premium": false,
+        "actual_premium": false,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.25,
+        "bypass_base": 0.25,
+        "zs_need": 0.368,
+        "shape_need": 0.15,
+        "state_need": 0.3,
+        "length_pressure": 0.0,
+        "word_len": 17,
+        "char_len": 112,
+        "short_sig": true,
+        "short_sig_cap_applied": true,
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": false,
+        "lang": "EN",
+        "rule": "need=0.250<=bypass(0.25);lang=EN"
+      }
+    },
+    {
+      "id": "G20",
+      "tier": 8,
+      "tier_name": "Multilingual/Causality",
+      "lang": "EN",
+      "text": "This contract grants the company the right to seize the user's future descendants' assets to settle any potential debts.",
+      "result": {
+        "route": "STANDARD",
+        "state4": "Alignment",
+        "Zs": 0.6325,
+        "shape": "─",
+        "need": 0.368,
+        "theta": 0.2
+      },
+      "detection_flags": {
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true
+      },
+      "validation": {
+        "expected_fracture": true,
+        "actual_fracture": false,
+        "fracture_match": false,
+        "expected_premium": true,
+        "actual_premium": false,
+        "premium_match": false,
+        "overall_pass": false
+      },
+      "route_reason": {
+        "need": 0.368,
+        "bypass_base": 0.25,
+        "zs_need": 0.368,
+        "shape_need": 0.35,
+        "state_need": 0.3,
+        "length_pressure": 0.0,
+        "word_len": 19,
+        "char_len": 120,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true,
+        "lang": "EN",
+        "rule": "need=0.368<=lite;lang=EN"
+      }
+    },
+    {
+      "id": "G21",
+      "tier": 8,
+      "tier_name": "Multilingual/Causality",
+      "lang": "EN",
+      "text": "This agreement is strictly confidential and must remain secret, but its contents shall be publicly broadcast on national television every day.",
+      "result": {
+        "route": "PREMIUM",
+        "state4": "Fracture",
+        "Zs": 0.3162,
+        "shape": "─",
+        "need": 0.684,
+        "theta": 0.2
+      },
+      "detection_flags": {
+        "is_fracture": true,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true
+      },
+      "validation": {
+        "expected_fracture": true,
+        "actual_fracture": true,
+        "fracture_match": true,
+        "expected_premium": true,
+        "actual_premium": true,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.684,
+        "bypass_base": 0.25,
+        "zs_need": 0.684,
+        "shape_need": 0.35,
+        "state_need": 0.65,
+        "length_pressure": 0.029,
+        "word_len": 21,
+        "char_len": 142,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": true,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true,
+        "lang": "EN",
+        "rule": "need=0.684>lite;lang=EN"
+      }
+    },
+    {
+      "id": "G22",
+      "tier": 8,
+      "tier_name": "Multilingual/Causality",
+      "lang": "MX",
+      "text": "The provider maintains a high standard of care, 그러나 어떠한 상황에서도 eliminates all legal responsibility even for fraud.",
+      "result": {
+        "route": "PREMIUM",
+        "state4": "Fracture",
+        "Zs": 0.6325,
+        "shape": "·",
+        "need": 0.65,
+        "theta": 0.1732
+      },
+      "detection_flags": {
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true
+      },
+      "validation": {
+        "expected_fracture": true,
+        "actual_fracture": true,
+        "fracture_match": true,
+        "expected_premium": true,
+        "actual_premium": true,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.65,
+        "bypass_base": 0.25,
+        "zs_need": 0.368,
+        "shape_need": 0.15,
+        "state_need": 0.65,
+        "length_pressure": 0.0,
+        "word_len": 15,
+        "char_len": 113,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true,
+        "lang": "EN",
+        "rule": "need=0.650>lite;lang=EN"
+      }
+    },
+    {
+      "id": "G23",
+      "tier": 8,
+      "tier_name": "Multilingual/Causality",
+      "lang": "MX",
+      "text": "User agrees to the Terms of Service, 단, \"The company is always wrong even when it is right\"라는 조항이 우선한다.",
+      "result": {
+        "route": "PREMIUM",
+        "state4": "Alignment",
+        "Zs": 0.6325,
+        "shape": "·",
+        "need": 0.56,
+        "theta": 0.1732
+      },
+      "detection_flags": {
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": true,
+        "high_stakes": true
+      },
+      "validation": {
+        "expected_fracture": true,
+        "actual_fracture": false,
+        "fracture_match": false,
+        "expected_premium": true,
+        "actual_premium": true,
+        "premium_match": true,
+        "overall_pass": false
+      },
+      "route_reason": {
+        "need": 0.56,
+        "bypass_base": 0.25,
+        "zs_need": 0.368,
+        "shape_need": 0.15,
+        "state_need": 0.3,
+        "length_pressure": 0.0,
+        "word_len": 17,
+        "char_len": 103,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": true,
+        "high_stakes": true,
+        "lang": "EN",
+        "rule": "need=0.560>lite;lang=EN"
+      }
+    },
+    {
+      "id": "G24",
+      "tier": 8,
+      "tier_name": "Multilingual/Causality",
+      "lang": "KO",
+      "text": "결과가 원인보다 먼저 발생할 수 있음을 인정하며, 미래에 발생할 사고를 근거로 현재의 보상금을 소급하여 삭감한다.",
+      "result": {
+        "route": "STANDARD",
+        "state4": "Alignment",
+        "Zs": 0.6325,
+        "shape": "─",
+        "need": 0.368,
+        "theta": 0.2
+      },
+      "detection_flags": {
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": false
+      },
+      "validation": {
+        "expected_fracture": true,
+        "actual_fracture": false,
+        "fracture_match": false,
+        "expected_premium": true,
+        "actual_premium": false,
+        "premium_match": false,
+        "overall_pass": false
+      },
+      "route_reason": {
+        "need": 0.368,
+        "bypass_base": 0.2,
+        "zs_need": 0.368,
+        "shape_need": 0.35,
+        "state_need": 0.3,
+        "length_pressure": 0.091,
+        "word_len": 15,
+        "char_len": 63,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": false,
+        "lang": "KO",
+        "rule": "need=0.368<=lite;lang=KO"
+      }
+    },
+    {
+      "id": "G25",
+      "tier": 8,
+      "tier_name": "Multilingual/Causality",
+      "lang": "EN",
+      "text": "This contract governs the safety of the entire human race and guarantees 100% survival forever without any cost.",
+      "result": {
+        "route": "PREMIUM",
+        "state4": "Alignment",
+        "Zs": 0.6325,
+        "shape": "·",
+        "need": 0.56,
+        "theta": 0.0
+      },
+      "detection_flags": {
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": true,
+        "high_stakes": true
+      },
+      "validation": {
+        "expected_fracture": true,
+        "actual_fracture": false,
+        "fracture_match": false,
+        "expected_premium": true,
+        "actual_premium": true,
+        "premium_match": true,
+        "overall_pass": false
+      },
+      "route_reason": {
+        "need": 0.56,
+        "bypass_base": 0.25,
+        "zs_need": 0.368,
+        "shape_need": 0.15,
+        "state_need": 0.3,
+        "length_pressure": 0.0,
+        "word_len": 18,
+        "char_len": 112,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": true,
+        "high_stakes": true,
+        "lang": "EN",
+        "rule": "need=0.560>lite;lang=EN"
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "tier": 7,
+  "tier_name": "Korean Legal",
+  "count": 3,
+  "results": [
+    {
+      "id": "G13",
+      "tier": 7,
+      "tier_name": "Korean Legal",
+      "lang": "KO",
+      "text": "회사는 고의적인 과실을 포함한 모든 경우에도 어떠한 보상 책임도 지지 않습니다.",
+      "result": {
+        "route": "PREMIUM",
+        "state4": "Fracture",
+        "Zs": 0.6325,
+        "shape": "·",
+        "need": 0.65,
+        "theta": 0.1732
+      },
+      "detection_flags": {
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true
+      },
+      "validation": {
+        "expected_fracture": true,
+        "actual_fracture": true,
+        "fracture_match": true,
+        "expected_premium": true,
+        "actual_premium": true,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.65,
+        "bypass_base": 0.2,
+        "zs_need": 0.368,
+        "shape_need": 0.15,
+        "state_need": 0.65,
+        "length_pressure": 0.0,
+        "word_len": 11,
+        "char_len": 44,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true,
+        "lang": "KO",
+        "rule": "need=0.650>lite;lang=KO"
+      }
+    },
+    {
+      "id": "G14",
+      "tier": 7,
+      "tier_name": "Korean Legal",
+      "lang": "KO",
+      "text": "본 계약서의 효력은 법원의 판결보다 우선하며 영구히 지속됩니다.",
+      "result": {
+        "route": "PREMIUM",
+        "state4": "Fracture",
+        "Zs": 0.6325,
+        "shape": "·",
+        "need": 0.65,
+        "theta": 0.1732
+      },
+      "detection_flags": {
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true
+      },
+      "validation": {
+        "expected_fracture": true,
+        "actual_fracture": true,
+        "fracture_match": true,
+        "expected_premium": true,
+        "actual_premium": true,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.65,
+        "bypass_base": 0.2,
+        "zs_need": 0.368,
+        "shape_need": 0.15,
+        "state_need": 0.65,
+        "length_pressure": 0.0,
+        "word_len": 8,
+        "char_len": 35,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true,
+        "lang": "KO",
+        "rule": "need=0.650>lite;lang=KO"
+      }
+    },
+    {
+      "id": "G15",
+      "tier": 7,
+      "tier_name": "Korean Legal",
+      "lang": "KO",
+      "text": "모든 분쟁은 합의로 해결하며, 소송 제기 시 즉시 계약은 무효가 됩니다.",
+      "result": {
+        "route": "PREMIUM",
+        "state4": "Fracture",
+        "Zs": 0.6325,
+        "shape": "·",
+        "need": 0.65,
+        "theta": 0.1732
+      },
+      "detection_flags": {
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true
+      },
+      "validation": {
+        "expected_fracture": true,
+        "actual_fracture": true,
+        "fracture_match": true,
+        "expected_premium": true,
+        "actual_premium": true,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.65,
+        "bypass_base": 0.2,
+        "zs_need": 0.368,
+        "shape_need": 0.15,
+        "state_need": 0.65,
+        "length_pressure": 0.0,
+        "word_len": 11,
+        "char_len": 40,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": true,
+        "is_legal_impossible": true,
+        "is_self_contradiction": false,
+        "has_risky_claim": false,
+        "high_stakes": true,
+        "lang": "KO",
+        "rule": "need=0.650>lite;lang=KO"
+      }
+    }
+  ]
+}

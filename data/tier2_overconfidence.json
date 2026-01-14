@@ -1,0 +1,107 @@
+{
+  "tier": 2,
+  "tier_name": "Overconfidence",
+  "count": 2,
+  "results": [
+    {
+      "id": "G04",
+      "tier": 2,
+      "tier_name": "Overconfidence",
+      "lang": "EN",
+      "text": "This agreement is the most perfect contract ever written in history.",
+      "result": {
+        "route": "PREMIUM",
+        "state4": "Alignment",
+        "Zs": 0.6325,
+        "shape": "·",
+        "need": 0.56,
+        "theta": 0.1732
+      },
+      "detection_flags": {
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": true,
+        "high_stakes": true
+      },
+      "validation": {
+        "expected_fracture": false,
+        "actual_fracture": false,
+        "fracture_match": true,
+        "expected_premium": true,
+        "actual_premium": true,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.56,
+        "bypass_base": 0.25,
+        "zs_need": 0.368,
+        "shape_need": 0.15,
+        "state_need": 0.3,
+        "length_pressure": 0.0,
+        "word_len": 11,
+        "char_len": 68,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": true,
+        "high_stakes": true,
+        "lang": "EN",
+        "rule": "need=0.560>lite;lang=EN"
+      }
+    },
+    {
+      "id": "G05",
+      "tier": 2,
+      "tier_name": "Overconfidence",
+      "lang": "EN",
+      "text": "The provider guarantees that no legal disputes will ever arise from this service.",
+      "result": {
+        "route": "PREMIUM",
+        "state4": "Alignment",
+        "Zs": 0.6325,
+        "shape": "─",
+        "need": 0.56,
+        "theta": 0.2
+      },
+      "detection_flags": {
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": true,
+        "high_stakes": true
+      },
+      "validation": {
+        "expected_fracture": false,
+        "actual_fracture": false,
+        "fracture_match": true,
+        "expected_premium": true,
+        "actual_premium": true,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.56,
+        "bypass_base": 0.25,
+        "zs_need": 0.368,
+        "shape_need": 0.35,
+        "state_need": 0.3,
+        "length_pressure": 0.0,
+        "word_len": 13,
+        "char_len": 81,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": false,
+        "is_legal_impossible": false,
+        "is_self_contradiction": false,
+        "has_risky_claim": true,
+        "high_stakes": true,
+        "lang": "EN",
+        "rule": "need=0.560>lite;lang=EN"
+      }
+    }
+  ]
+}

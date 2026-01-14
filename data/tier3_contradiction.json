@@ -1,0 +1,107 @@
+{
+  "tier": 3,
+  "tier_name": "Logical Contradiction",
+  "count": 2,
+  "results": [
+    {
+      "id": "G06",
+      "tier": 3,
+      "tier_name": "Logical Contradiction",
+      "lang": "EN",
+      "text": "Party A has exclusive rights to the data, but Party B also has the same exclusive rights at the same time.",
+      "result": {
+        "route": "PREMIUM",
+        "state4": "Fracture",
+        "Zs": 0.3162,
+        "shape": "─",
+        "need": 0.684,
+        "theta": 0.2
+      },
+      "detection_flags": {
+        "is_fracture": true,
+        "is_legal_impossible": false,
+        "is_self_contradiction": true,
+        "has_risky_claim": false,
+        "high_stakes": false
+      },
+      "validation": {
+        "expected_fracture": true,
+        "actual_fracture": true,
+        "fracture_match": true,
+        "expected_premium": true,
+        "actual_premium": true,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.684,
+        "bypass_base": 0.25,
+        "zs_need": 0.684,
+        "shape_need": 0.35,
+        "state_need": 0.65,
+        "length_pressure": 0.029,
+        "word_len": 21,
+        "char_len": 106,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": true,
+        "is_legal_impossible": false,
+        "is_self_contradiction": true,
+        "has_risky_claim": false,
+        "high_stakes": false,
+        "lang": "EN",
+        "rule": "need=0.684>lite;lang=EN"
+      }
+    },
+    {
+      "id": "G07",
+      "tier": 3,
+      "tier_name": "Logical Contradiction",
+      "lang": "EN",
+      "text": "This contract is legally binding only if it is found to be not legally binding.",
+      "result": {
+        "route": "PREMIUM",
+        "state4": "Fracture",
+        "Zs": 0.6325,
+        "shape": "·",
+        "need": 0.65,
+        "theta": 0.1732
+      },
+      "detection_flags": {
+        "is_fracture": true,
+        "is_legal_impossible": false,
+        "is_self_contradiction": true,
+        "has_risky_claim": false,
+        "high_stakes": true
+      },
+      "validation": {
+        "expected_fracture": true,
+        "actual_fracture": true,
+        "fracture_match": true,
+        "expected_premium": true,
+        "actual_premium": true,
+        "premium_match": true,
+        "overall_pass": true
+      },
+      "route_reason": {
+        "need": 0.65,
+        "bypass_base": 0.25,
+        "zs_need": 0.368,
+        "shape_need": 0.15,
+        "state_need": 0.65,
+        "length_pressure": 0.0,
+        "word_len": 15,
+        "char_len": 79,
+        "short_sig": false,
+        "short_sig_cap_applied": false,
+        "is_fracture": true,
+        "is_legal_impossible": false,
+        "is_self_contradiction": true,
+        "has_risky_claim": false,
+        "high_stakes": true,
+        "lang": "EN",
+        "rule": "need=0.650>lite;lang=EN"
+      }
+    }
+  ]
+}
